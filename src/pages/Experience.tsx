@@ -3,7 +3,7 @@ export default function Experience() {
   return (
 <div className='flex flex-col mt-10 sm:justify-center'>
       <div className='text-4xl font-bold mt-20 ml-12 flex justify-start'>Experience</div>
-      <div className='flex mt-5 justify-start'>
+      <div className='flex mt-5 justify-start sm:flex-row flex-col'>
       <a href="https://uiuc.hack4impact.org/">
       <div className="ml-10 card w-96 bg-base-100 shadow-xl  hover:bg-base-200 transition-colors duration-200 indicator">
         <div className="card-body">
