@@ -4,6 +4,7 @@ export default function Projects() {
 <div className='flex flex-col mt-10 sm:h-auto h-screen mb-10'>
       <div className='text-4xl font-bold mt-20 ml-12 flex justify-center sm:justify-start'>Projects</div>
       <div className='flex flex-col sm:flex-row mt-5 justify-start sm:justify-start items-center sm:items-start gap-5'>
+        <a href="https://github.com/HejSidharth/HonestWeather">
       <div className="ml-10 card w-96 bg-base-100 shadow-xl  hover:bg-base-200 transition-colors duration-200 indicator">
         <span className='indicator-item badge badge-primary'>AI</span>
         <div className="card-body">
@@ -21,6 +22,7 @@ export default function Projects() {
       </div>
     </div>
   </div>
+  </a>
   <div className="ml-10 card w-96 bg-base-100 shadow-xl  hover:bg-base-200 transition-colors duration-200">
         <div className="card-body">
           <h2 className="card-title">
