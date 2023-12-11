@@ -1,4 +1,3 @@
-import React from 'react'
 import project1 from '../assets/sidharth.jpg'
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
