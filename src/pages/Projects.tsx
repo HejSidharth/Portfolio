@@ -6,7 +6,6 @@ export default function Projects() {
       <div className='flex flex-col sm:flex-row mt-5 justify-start sm:justify-start items-center sm:items-start gap-5'>
         <a href="https://github.com/HejSidharth/HonestWeather">
       <div className="ml-0 sm:ml-10 card w-96 bg-base-100 shadow-xl  hover:bg-base-200 transition-colors duration-200 indicator">
-        <span className='indicator-item badge badge-primary'>AI</span>
         <div className="card-body">
           <h2 className="card-title">
             HonestWeather 
