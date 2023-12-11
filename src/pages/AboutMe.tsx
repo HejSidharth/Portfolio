@@ -10,7 +10,7 @@ export default function AboutMe() {
           <div>
             <h1 className="text-5xl font-bold">Sidharth Hejamadi</h1>
             <p className="py-6">As a Computer Science + Statistics student at UIUC, I thrive at the intersection of technology and data-driven insights. Currently immersed in the vibrant community of Hack4Impact, I'm passionate about harnessing my skills in front-end development and UI design to create meaningful solutions that address real-world challenges.</p>
-            <div className='flex gap-3'>
+            <div className='flex gap-3 mb-10'>
             <a href="https://github.com/HejSidharth" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/sidharth-hejamadi/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
             <a href="mailto:sh81@illinois.edu"><FaEnvelope /></a>
