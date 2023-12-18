@@ -5,7 +5,7 @@ import { FaDownload } from 'react-icons/fa';
 
 
 const Navbar = () => {
-    const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -19,7 +19,7 @@ const Navbar = () => {
   
   return (
     
-    <div className="navbar bg-base-100 fixed w-full top-0 bg-opacity-95 bg-blur z-50">
+    <div className="navbar bg-base-100 fixed w-full top-0 bg-opacity-70 z-50 backdrop-blur-sm">
     <div className="flex-1">
       <Link to="/" className="text-lg font-bold">
       <a className="btn btn-ghost text-xl">Sidharth Hejamadi</a>
